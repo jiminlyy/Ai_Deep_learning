@@ -1,1 +1,6 @@
 현재 RoboFlow에서 받은 데이터 셋을 colab에서 GPU 사용으로 학습 시켰다. 
+
+지금 받아진 best.ml package는 
+입력이 image 타입이고 , nms = True로 export해서 iouThreshold, confidenceThreshold가 입력에 포함되어있다
+출력은 confidence(클래스별 신뢰도)와 coordinates(바운딩박스 좌표)
+
